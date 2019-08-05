@@ -1,0 +1,7 @@
+br/com/projeto/zup2/request/CreateBandaRequest$CreateBandaRequestBuilder.class
+br/com/projeto/zup2/model/BandaModel$BandaModelBuilder.class
+br/com/projeto/zup2/CadastroBandasApplication.class
+br/com/projeto/zup2/controller/BandaController.class
+br/com/projeto/zup2/model/BandaModel.class
+br/com/projeto/zup2/repository/BandasRepository.class
+br/com/projeto/zup2/request/CreateBandaRequest.class

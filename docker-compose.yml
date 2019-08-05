@@ -1,0 +1,18 @@
+version: '3'
+networks:
+ db:
+ cache:
+services:
+ postgres:
+   container_name: projeto-zup2
+   image: postgres:9.6
+   ports:
+     - "5432:5432"
+   environment:
+     - POSTGRES_DB=bandas
+     - POSTGRES_USER=rock
+     - POSTGRES_PASSWORD=123
+     - MAX_CONNECTIONS=300
+   networks:
+     - db
+
